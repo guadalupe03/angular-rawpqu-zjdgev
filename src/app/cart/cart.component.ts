@@ -8,7 +8,8 @@ import { Router } from '@angular/router';
   templateUrl: './cart.component.html',
   styleUrls: ['./cart.component.css']
 })
-export class CartComponent implements OnInit {
+//export class CartComponent implements OnInit {    //marca error con OnInit
+export class CartComponent {
   
   items; 
   checkoutForm;
